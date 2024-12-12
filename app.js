@@ -43,7 +43,7 @@ form.addEventListener("submit", async (event) => {
   } catch (error) {
     // Handle network or other errors
     console.error("An error occurred:", error);
-    alert("An error occurred while submitting the form. Please try again.");
+    alert("An error occurred while submitting the form. Please try again.", error);
   }
 });
 
