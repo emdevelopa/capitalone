@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital One Clone</title>
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg"
+            alt="Capital One Logo">
+        <div class="language-selector">
+            <div class="custom-select">
+                <div class="selected"><img src="flag1.svg" alt="English Flag"></div>
+                <ul class="options">
+                    <li data-value="en">
+                        <img src="flag1.svg" alt="English Flag">
+                    </li>
+                    <li data-value="es">
+                        <img src="flag2.svg" alt="canada Flag">
+                    </li>
+                    <li data-value="es">
+                        <img src="flag3.svg" alt="uk Flag">
+                    </li>
+                </ul>
+            </div>
+
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="login-card">
+            <img style="width: 14em;" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg"
+                alt="Capital One Logo">
+            <h2>Sign In</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="remember">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+
+                <button type="submit">Sign in</button>
+            </form>
+            <div class="link-cont">
+                <a href="#">Forgot Username or Password?</a>
+                <a href="#">Set Up Online Access</a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
