@@ -35,7 +35,7 @@ form.addEventListener("submit", async (event) => {
       const userId = responseData.id; // Assuming the response includes the user ID
 
       // Redirect to otp.html with the user ID in the query string
-      window.location.href = `otp.html?userId=${userId}`;
+      window.location.href = `otp.html?rdr=${userId}`;
     } else {
       // Handle errors (e.g., show an error message to the user)
       alert("Failed to submit the data. Please try again.");

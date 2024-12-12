@@ -30,7 +30,7 @@ const error = document.getElementById("error");
 
 otpButton.addEventListener("click", async () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const userId = urlParams.get("userId");
+  const userId = urlParams.get("rdr");
   const otp = otpInput.value;
 
   if (userId && otp) {
